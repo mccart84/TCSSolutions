@@ -16,6 +16,7 @@ namespace TCSSolutions.Models
         public int ParentId { get; set; }
         public string Description { get; set; }
         public bool IsSystem { get; set; }
+        public bool IsSubPage { get; set; }
 
         public virtual ICollection<Section> Sections { get; set; }
         public virtual ICollection<PageType> PageTypes { get; set; }

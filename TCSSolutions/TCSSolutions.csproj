@@ -202,8 +202,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\File.cs" />
+    <Compile Include="Models\FileKeyword.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\NavigationItem.cs" />
+    <Compile Include="Models\PageContent.cs" />
+    <Compile Include="Models\PageType.cs" />
+    <Compile Include="Models\Section.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>

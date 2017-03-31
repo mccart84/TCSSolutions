@@ -7,5 +7,12 @@ namespace TCSSolutions.Models
 {
     public class Section
     {
+        public int RecId { get; set; }
+        public string Name { get; set; }
+        public bool IsActive { get; set; }
+        public bool IsSystem { get; set; }
+
+        public virtual NavigationItem NavigationItem { get; set; }
+        public virtual ICollection<File> Files { get; set; }
     }
 }
