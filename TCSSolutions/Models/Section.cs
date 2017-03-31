@@ -12,7 +12,7 @@ namespace TCSSolutions.Models
         public bool IsActive { get; set; }
         public bool IsSystem { get; set; }
 
-        public virtual NavigationItem NavigationItem { get; set; }
+        public virtual ICollection<NavigationItem> NavigationItems { get; set; }
         public virtual ICollection<File> Files { get; set; }
     }
 }
